@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "540837607368",
+    "project_id": "taskrelay-45d9f",
+    "storage_bucket": "taskrelay-45d9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540837607368:android:886b63a5d38b4b5bdaf2fd",
+        "android_client_info": {
+          "package_name": "com.taskrelay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6_CMOcqKUPEZfBMqYrfnPGWD9Be15hzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,97 +1,76 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# TaskRelay 
 
-# Getting Started
+A React Native mobile application for seamless ticket management between clients and administrators. Clients can submit bug reports and feature requests, while admins can view, manage, and update ticket statuses in real-time using Firebase.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 📖 Project Description
 
-## Step 1: Start Metro
+TaskRelay is a ticket management system that enables efficient communication between clients and support teams. The app features role-based access control with two distinct user experiences:
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+**Client Interface:**
+- Submit bug reports and feature requests
+- View personal ticket history
+- Track ticket status in real-time
+- Simple, intuitive ticket creation form
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+**Admin Interface:**
+- View all tickets from all clients
+- Update ticket statuses (open, in-progress, resolved, closed)
+- See client information for each ticket
+- Real-time updates across all devices
 
-```sh
-# Using npm
-npm start
+The application uses Firebase Authentication for secure user management and Cloud Firestore for real-time data synchronization, ensuring instant updates when ticket statuses change.
 
-# OR using Yarn
-yarn start
+## 🛠️ Tech Stack
+
+- **Frontend**: React Native
+- **Navigation**: React Navigation
+- **Backend**: Firebase (Authentication + Firestore)
+- **Language**: JavaScript
+
+## 🔑 Test Credentials
+
+### Client Account
+```
+Email: joshseki@gmail.com
+Password: password
+```
+**Access**: Can create tickets and view own submissions
+
+### Admin Account
+```
+Email: admin@gmail.com
+Password: password
+```
+**Access**: Can view all tickets and update their statuses
+
+## 🚀 Key Features
+
+- Real-time synchronization across all devices
+- Role-based access control (client vs admin)
+- Clean, modern mobile UI
+- Pull-to-refresh functionality
+- Ticket categorization (Bug/Feature)
+- Status tracking (Open → In Progress → Resolved → Closed)
+
+## 📱 Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/taskrelay.git
+cd taskrelay
+
+# Install dependencies
+npm install
+
+# Run on Android
+npx react-native run-android
+
+# Run on iOS (Mac only)
+npx react-native run-ios
 ```
 
-## Step 2: Build and run your app
+**Note**: Requires Firebase project setup with Authentication and Firestore enabled. Configuration files (`google-services.json` for Android and `GoogleService-Info.plist` for iOS) must be added to run the app.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+**Built with React Native + Firebase** | [View Demo](#) | [Report Bug](#)
