@@ -8,6 +8,9 @@ import auth, {
     onAuthStateChanged
 } from '@react-native-firebase/auth';
 
+import firestore from '@react-native-firebase/firestore';
+import Config from 'react-native-config';
+
 import firestore, {
     collection,
     doc,

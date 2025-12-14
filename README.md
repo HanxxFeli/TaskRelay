@@ -81,4 +81,22 @@ npx react-native run-ios
    
    Contact the project owner or set up your own Firebase project to obtain these files.
 
+## 🔧 Setup Instructions
+
+### For Group Members
+
+See [SETUP.md](SETUP.md) for detailed setup instructions.
+
+### Quick Start
+```bash
+# Install dependencies
+npm install
+
+# Run Android
+npx react-native run-android
+
+# Run iOS (Mac only)
+npx react-native run-ios
+```
+
 **Built with React Native + Firebase** | [View Demo](#) | [Report Bug](#)

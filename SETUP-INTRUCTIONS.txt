@@ -1,0 +1,24 @@
+TASKRELAY - QUICK SETUP FOR PROFESSOR/USER
+
+1. Unzip the project from GitHub
+
+2. Copy these 3 files to the project:
+   - .env → (project root)
+   - google-services.json → android/app/
+   - GoogleService-Info.plist → ios/
+
+3. Run in terminal:
+   npm install
+   npx react-native run-android (or run-ios for Mac)
+
+4. Use these credentials to test:
+
+   CLIENT LOGIN:
+   Email: joshseki@gmail.com
+   Password: password
+
+   ADMIN LOGIN:
+   Email: admin@gmail.com
+   Password: password
+
+Questions? Email: hgvfeliciano10@gmail.com
