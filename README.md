@@ -73,4 +73,12 @@ npx react-native run-ios
 
 ---
 
+## Firebase Setup Required
+   
+   The following files are required but not included in the repository (for security):
+   - `android/app/google-services.json`
+   - `ios/GoogleService-Info.plist`
+   
+   Contact the project owner or set up your own Firebase project to obtain these files.
+
 **Built with React Native + Firebase** | [View Demo](#) | [Report Bug](#)
